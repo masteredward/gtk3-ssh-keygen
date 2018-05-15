@@ -21,6 +21,7 @@ class GridWindow(Gtk.Window):
         label_kpass = Gtk.Label(label="Enter Private Key Pass:")
         global entry_kpass
         entry_kpass = Gtk.Entry()
+	entry_kpass.set_visibility(visible=False)
         
         label_kcomment = Gtk.Label(label="Enter Public Key Comment:")
         global entry_kcomment
